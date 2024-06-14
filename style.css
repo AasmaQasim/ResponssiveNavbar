@@ -1,0 +1,21 @@
+nav {
+    background-color: rgb(244, 85, 85);
+    height: 90px
+}
+
+ul li a {
+ 
+    transition: color  0.3s ease !important;
+}
+ ul li a:hover {
+    color: black !important;
+}
+
+@media (max-width: 600px) {
+    .nav-link {
+        color: black !important;
+    }
+    .social-icon{
+        display:none !important;
+    }
+}
